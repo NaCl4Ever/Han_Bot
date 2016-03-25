@@ -1,0 +1,18 @@
+{
+  "name": "han_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/hanbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "google-images": "^1.0.0",
+    "googleapis": "^3.1.0",
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.1"
+  }
+}
