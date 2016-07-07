@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'F:\\Users\\Jordan\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'start' ]
+2 info using npm@3.8.6
+3 info using node@v5.3.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle han_bot@1.0.0~prestart: han_bot@1.0.0
+6 silly lifecycle han_bot@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle han_bot@1.0.0~start: han_bot@1.0.0
+8 verbose lifecycle han_bot@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle han_bot@1.0.0~start: PATH: F:\Users\Jordan\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;F:\Users\Jordan\Documents\Projects\han_bot\node_modules\.bin;F:\Program Files\nodejs;F:\Program Files (x86)\ConEmu\ConEmu\Scripts;F:\Program Files (x86)\ConEmu;F:\Program Files (x86)\ConEmu\ConEmu;F:\Program Files\Haskell\bin;F:\Program Files\Haskell Platform\2014.2.0.0\lib\extralibs\bin;F:\Program Files\Haskell Platform\2014.2.0.0\bin;F:\ProgramData\Oracle\Java\javapath;F:\WINDOWS\system32;F:\WINDOWS;F:\WINDOWS\System32\Wbem;F:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;F:\Program Files\Microsoft SQL Server\110\Tools\Binn\;F:\Program Files (x86)\Git\bin;F:\Users\Jordan\Downloads\ikvmbin-7.2.4630.5\ikvm-7.2.4630.5\bin;F:\Ruby21-x64\bin;F:\Python27\Scripts;F:\Python27;F:\Program Files\Haskell Platform\2014.2.0.0\mingw\bin;F:\Program Files (x86)\AMD\ATI.ACE\Core-Static;F:\Program Files (x86)\Skype\Phone\;F:\Program Files\nodejs\;F:\Program Files (x86)\Heroku\bin;F:\Program Files (x86)\git\cmd;F:\Program Files (x86)\Brackets\command;F:\WINDOWS\system32\config\systemprofile\.dnx\bin;F:\Program Files\Microsoft DNX\Dnvm\;F:\Program Files\Microsoft SQL Server\130\Tools\Binn\;F:\Program Files (x86)\GtkSharp\2.12\bin;F:\RailsInstaller\Ruby2.2.0\bin;F:\Users\Jordan\appdata\local\scoop\shims;F:\Users\Jordan\AppData\Roaming\cabal\bin;F:\Ruby21-x64\bin;F:\Program Files (x86)\Java\jdk1.7.0_75;F:\sqlite;F:\Users\Jordan\AppData\Local\atom\bin;F:\Users\Jordan\AppData\Roaming\npm;C:\sqlite;F:\Users\Jordan\AppData\Local\.meteor\;C:\gnuwin32\bin;
+10 verbose lifecycle han_bot@1.0.0~start: CWD: F:\Users\Jordan\Documents\Projects\han_bot
+11 silly lifecycle han_bot@1.0.0~start: Args: [ '/d /s /c', 'node .bin/bot.js' ]
+12 silly lifecycle han_bot@1.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle han_bot@1.0.0~start: Failed to exec start script
+14 verbose stack Error: han_bot@1.0.0 start: `node .bin/bot.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (F:\Users\Jordan\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:239:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (F:\Users\Jordan\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid han_bot@1.0.0
+16 verbose cwd F:\Users\Jordan\Documents\Projects\han_bot
+17 error Windows_NT 10.0.10240
+18 error argv "F:\\Program Files\\nodejs\\node.exe" "F:\\Users\\Jordan\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "start"
+19 error node v5.3.0
+20 error npm  v3.8.6
+21 error code ELIFECYCLE
+22 error han_bot@1.0.0 start: `node .bin/bot.js`
+22 error Exit status 1
+23 error Failed at the han_bot@1.0.0 start script 'node .bin/bot.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the han_bot package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node .bin/bot.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs han_bot
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls han_bot
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
